@@ -1,11 +1,11 @@
-<!--vishal aaj tujhe is pe kaam krna hai
-CREATE TABLE image (             
-       id int(5) NOT NULL auto_increment,  
-       firstname varchar(25) default NULL,      
-       lastname varchar(20) default NULL,      
-       image blob,                         
-       email varchar(50) default NULL,     
-       PRIMARY KEY  (`id`)                   
+<!--
+CREATE TABLE image (
+       id int(5) NOT NULL auto_increment,
+       firstname varchar(25) default NULL,
+       lastname varchar(20) default NULL,
+       image blob,
+       email varchar(50) default NULL,
+       PRIMARY KEY  (`id`)
  );
 
 -->
