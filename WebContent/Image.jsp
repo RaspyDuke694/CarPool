@@ -15,7 +15,7 @@ CREATE TABLE image (
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Carpooling</title>
 </head>
 <body>
 
@@ -29,8 +29,8 @@ CREATE TABLE image (
  
             try {
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
-                conn = DriverManager.getConnection(url, "root","");
-                File image = new File("C:/Users/SUBRAT/Desktop/o.jpg");
+                conn = DriverManager.getConnection(url, "root","raspyduke");
+                File image = new File("");
                 pstmt = conn.prepareStatement("insert into image(firstname, lastname, image, email) " + "values(?,?,?,?)");
                 pstmt.setString(1, "Sumanth");
                 pstmt.setString(2, "Garakarajula");
